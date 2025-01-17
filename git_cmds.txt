@@ -1,0 +1,86 @@
+  766  git
+  767  git --version
+  768  git config --global user.name "Abi"
+  769  git config --global user.email "abigogreen@gmail.com"
+  770  git init /home/abinaya/Documents/Git/TEST_REPO
+  771  git config --global user.name "Abi"
+  772  git config --global user.email "abinaya@ngpwebsmart.com"
+  773  git clone https://github.com/Abi/test.git
+  774  git clone https://github.com/Abi-246/test.git
+  775  cd Documents/
+  776  cd Git/
+  777  ls
+  778  ls -a
+  779  cd TEST_REPO/
+  780  git add first_project
+  781  git add *
+  782  cd ..
+  783  git clone https://github.com/Abi-246/test2.git
+  784  cd /Documnets/Git/TEST_REPO
+  785  cd /Documents/Git/TEST_REPO
+  786  cd /home/abinaya/Documents/Git/TEST_REPO
+  787  git add test_project1
+  788  git add .
+  789  ls
+  790  git commit -m "sample commit"
+  791  git add project1
+  792  cd ..
+  793  git add TEST_REPO
+  794  cd TEST_REPO/
+  795  git clone https://github.com/Abi-246/test2.git
+  796  git add project1
+  797  git add /project1
+  798  git add content.txt
+  799  git add /home/abinaya/Downloads/content.txt
+  800  git add content.txt
+  801  git status
+  802  git commit -a
+  803  git log
+  804  git diff
+  805  git add India.txt
+  806  git log
+  807  git status
+  808  git restore --staged India.txt
+  809  git status
+  810  git diff
+  811  git add India.txt
+  812  git diff --staged
+  813  git checkout -b branch1
+  814  git branch
+  815  git checkout master
+  816  git branch
+  817  git log
+  818  git show
+  819  git config --global credential.helper store
+  820  git remote add origin https://github.com/Abi-246/test2
+  821  git push origin master
+  822  git bash
+  823  git bash --version
+  824  bash --version
+  825  git push origin master
+  826  ssh-keygen -t ed25519.pub -C "abinaya@ngpwebsmart.com"
+  827  ssh-keygen -t ed25519 -C "abinaya@ngpwebsmart.com"
+  828  cat ~/.ssh/id_ed25519.pub
+  829  cat ~/.ssh/key.txt
+  830  cat ~/.ssh/id_ed25519
+  831  cat ~/.ssh/id_ed25519/key.txt
+  832  cd ..
+  833  cat ~/.ssh/id_ed25519
+  834  cat ~/key.txt
+  835  ssh-keygen -t ed25519 -C "abinaya@ngpwebsmart.com"
+  836  cat ~/.ssh/id_ed25519
+  837  eval "$(ssh-agent -s)"
+  838  ssh-add ~/.ssh/id_rsa
+  839  ssh-add ~/.ssh/id_ed25519
+  840  cat ~/.ssh/id_ed25519
+  841  cat ~/.ssh/id_ed25519.pub
+  842  ssh -T git@github.com
+  843  git remote -v
+  844  cd /home/abinaya/Documents/Git/TEST_REPO
+  845  git remote -v
+  846  git remote set-url origin git@github.com:Abi-246/test2.git
+  847  git remote -v
+  848  git branch
+  849  git push -u origin master
+  850  git status
+  851  history > git_cmds.txt
